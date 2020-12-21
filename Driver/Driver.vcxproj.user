@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TestCertificate>CN="WDKTestCert Igor,132297530853795730" | 1FB73E8DA3C92C1631B2319D590DFA8A7D1EC268</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TestCertificate>CN="WDKTestCert Igor,132297812030544140" | C2AD43B08AD083CB1442207B27DAFB55A6C3414C</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TestCertificate>CN="WDKTestCert Igor,132301104126086933" | D3A5064C867E3046307FA36DDDDC916CC9D337DB</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TestCertificate>CN="WDKTestCert Igor,132301104232112998" | 33FA96F8EDCCA82558D907444B92AFC73C4CAA53</TestCertificate>
+  </PropertyGroup>
+</Project>

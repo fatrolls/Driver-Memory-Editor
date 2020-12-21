@@ -1,0 +1,6 @@
+SET CurrentDir=%~dps0
+cd %CurrentDir%
+%CurrentDir%kdu.exe -prv 1 -map "%CurrentDir%Driver.sys"
+sc create csgo binPath= "%CurrentDir%Driver.sys" type= kernel
+timeout /t 2
+pause

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="KernelBhop.cpp" />
+    <ClCompile Include="CDialogUtils.cpp" />
+    <ClCompile Include="CMemoryScanner.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="MemFunctions.cpp" />
+    <ClCompile Include="MemoryModule.c" />
+    <ClCompile Include="MemUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeInterface.h" />
+    <ClInclude Include="CDialogUtils.h" />
+    <ClInclude Include="CMemoryScanner.h" />
+    <ClInclude Include="FEditAddress.h" />
+    <ClInclude Include="FEditVal.h" />
+    <ClInclude Include="FMemScan.h" />
+    <ClInclude Include="FMemViewer.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="MemFunctions.h" />
+    <ClInclude Include="MemoryModule.h" />
+    <ClInclude Include="Memscan.h" />
+    <ClInclude Include="MemUtils.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SpeedHack.h" />
+    <ClInclude Include="Main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Memory Scanner.rc" />
+  </ItemGroup>
+</Project>
